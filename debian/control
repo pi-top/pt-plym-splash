@@ -1,0 +1,13 @@
+Source: pt-plym-splash
+Section: x11
+Priority: optional
+Maintainer: pi-top <deb-maintainers@pi-top.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://pi-top.com/
+
+Package: pt-plym-splash
+Architecture: armhf
+Depends: ${shlibs:Depends}, ${misc:Depends}, plymouth (>= 0.9.2), plymouth-themes (>= 0.9.2)
+Description: pi-topOS Desktop splashscreen
+ Plymouth theme with pi-topOS Desktop splashscreen
