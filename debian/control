@@ -8,9 +8,6 @@ Homepage: https://pi-top.com/
 
 Package: pt-plym-splash
 Architecture: armhf
-Replaces: pt-splashscreen
-Breaks: pt-splashscreen
-Conflicts: pt-splashscreen
 Depends: ${shlibs:Depends}, ${misc:Depends}, plymouth (>= 0.9.2), plymouth-themes (>= 0.9.2)
 Description: pi-topOS Desktop splashscreen
  Plymouth theme with pi-topOS Desktop splashscreen
