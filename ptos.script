@@ -39,12 +39,15 @@ if (Plymouth.GetMode() != "shutdown")
 }
 
 message_sprite = Sprite();
-message_sprite.SetPosition(screen_width * 0.1, screen_height * 0.9, 10000);
+message_sprite.SetPosition(screen_width * 0.5, screen_height * 0.9, 10000);
 
 fun message_callback (text) {
-	my_image = Image.Text(text, 1, 1, 1);
-	message_sprite.SetImage(my_image);
-	sprite.SetImage (resized_image);
+	text_image = Image.Text(text, 1, 1, 1, 0.25, "FSMePro 14");
+	message_sprite.SetImage(text_image);
+	message_sprite.SetPosition((screen_width - text_image.GetWidth()) * 0.5, screen_height * 0.9, 10000);
 }
 
-Plymouth.SetUpdateStatusFunction(message_callback);
+if (Plymouth.GetMode() != "shutdown")
+{
+	Plymouth.SetUpdateStatusFunction(message_callback);
+}
