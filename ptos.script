@@ -38,16 +38,23 @@ if (Plymouth.GetMode() != "shutdown")
 	sprite.SetPosition (image_x, image_y, -100);
 }
 
+header_sprite = Sprite();
+header_sprite.SetPosition(screen_width * 0.5, screen_height * 0.85, 10000);
+
 message_sprite = Sprite();
 message_sprite.SetPosition(screen_width * 0.5, screen_height * 0.9, 10000);
 
 fun message_callback (text) {
-	text_image = Image.Text(text, 1, 1, 1, 0.25, "FSMePro 14");
-	message_sprite.SetImage(text_image);
-	message_sprite.SetPosition((screen_width - text_image.GetWidth()) * 0.5, screen_height * 0.9, 10000);
+        header_text_image = Image.Text("Loading...", 1, 1, 1, 0.25, "FSMePro 14");
+        header_sprite.SetImage(header_text_image);
+        header_sprite.SetPosition((screen_width - header_text_image.GetWidth()) * 0.5, screen_height * 0.85, 10000);
+
+        update_status_text_image = Image.Text(text, 1, 1, 1, 0.25, "FSMePro 14");
+        message_sprite.SetImage(update_status_text_image);
+        message_sprite.SetPosition((screen_width - update_status_text_image.GetWidth()) * 0.5, screen_height * 0.9, 10000);
 }
 
 if (Plymouth.GetMode() != "shutdown")
 {
-	Plymouth.SetUpdateStatusFunction(message_callback);
+        Plymouth.SetUpdateStatusFunction(message_callback);
 }
