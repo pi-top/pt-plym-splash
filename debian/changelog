@@ -1,3 +1,9 @@
+pt-plym-splash (1.1.0-1) stretch; urgency=medium
+
+  * Update for pi-topOS Sirius
+
+ -- Mike Roberts <mike@pi-top.com>  Mon, 22 Apr 2019 14:12:47 +0800
+
 pt-plym-splash (1.0.0-1) stretch; urgency=medium
 
   * Initial release
