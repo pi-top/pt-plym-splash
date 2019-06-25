@@ -1,3 +1,9 @@
+pt-plym-splash-deb (1.1.0-2) buster; urgency=medium
+
+  * Move to Buster
+
+ -- Mike Roberts <mike@pi-top.com>  Tue, 25 Jun 2019 15:10:39 +0100
+
 pt-plym-splash (1.1.0-1) stretch; urgency=medium
 
   * Update for pi-topOS Sirius
