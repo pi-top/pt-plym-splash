@@ -1,3 +1,10 @@
+pt-plym-splash (2.0.0) buster; urgency=medium
+
+  * Migrate to native package
+  * Upgrade package format to compat level 12
+
+ -- Mike Roberts <mike@pi-top.com>  Tue, 20 Oct 2020 14:04:10 +0100
+
 pt-plym-splash (1.1.1-1) buster; urgency=medium
 
   * Move to Buster
