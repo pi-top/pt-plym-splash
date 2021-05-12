@@ -1,3 +1,51 @@
+pt-plym-splash (2.0.1) buster; urgency=medium
+
+  [ Mike Roberts ]
+  * Differentiate with PiX by inverting image
+  * Remove 180 file
+  * Specify that this breaks pt-splashscreen
+  * New splashscreen
+  * Migrate to PNG
+  * Remove source folder
+  * Add install file
+  * Publish to Sirius repo
+  * Remove pt-splashscreen from control file
+
+  [ Ben P ]
+  * Add new splashscreen image
+  * Improve appearance of messages
+
+  [ Mike Roberts ]
+  * 🎨 Give text output more context
+  * Bump changelog to 1.1.0
+  * Add pre-commit config; run pre-commit
+  * Add pre-commit check
+  * Urgency=medium, distro=Buster
+  * Fix changelog package name
+  * Fix changelog package name
+  * Fix pre-commit dir error
+
+  [ Ben P ]
+  * Update changelog
+
+  [ Mike Roberts ]
+  * Use new generic package Jenkinsfile
+  * Fix Jenkinsfile
+  * Updated Jenkinsfile
+  * Compat level 11
+  * Upgrade package
+  * Update Lintian overrides
+  * Architecture: all
+  * Allow external sources when testing shell scripts
+  * Architecture: any --> all
+  * Add GitHub workflows
+  * Standards-Version: 4.5.1
+
+  [ Jorge Capona ]
+  * Remove build-python job from create-draft workflow
+
+ -- pi-top <deb-maintainers@pi-top.com>  Wed, 12 May 2021 19:58:00 +0000
+
 pt-plym-splash (2.0.0) buster; urgency=medium
 
   * Migrate to native package
