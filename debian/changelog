@@ -1,3 +1,13 @@
+pt-plym-splash (2.0.2) buster; urgency=medium
+
+  [ Mike Roberts ]
+  * Workflow: create draft release manually
+
+  [ pre-commit-ci[bot] ]
+  * [pre-commit.ci] pre-commit autoupdate (#4)
+
+ -- pi-top <deb-maintainers@pi-top.com>  Mon, 19 Jul 2021 21:16:41 +0000
+
 pt-plym-splash (2.0.1) buster; urgency=medium
 
   * Allow external sources when testing shell scripts
