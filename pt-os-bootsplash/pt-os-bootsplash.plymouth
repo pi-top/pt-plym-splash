@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=pt-os-bootsplash
+Description=pi-topOS Bootsplash
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/pt-os-bootsplash
+ScriptFile=/usr/share/plymouth/themes/pt-os-bootsplash/pt-os-bootsplash.script

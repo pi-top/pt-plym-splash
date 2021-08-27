@@ -1,3 +1,9 @@
+pt-os-bootsplash (2.0.2) bullseye; urgency=medium
+
+  * Rename package
+
+ -- pi-top <deb-maintainers@pi-top.com>  Mon, 09 Aug 2021 14:05:56 +0100
+
 pt-plym-splash (2.0.1) buster; urgency=medium
 
   * Allow external sources when testing shell scripts

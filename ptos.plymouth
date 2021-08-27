@@ -1,8 +1,0 @@
-[Plymouth Theme]
-Name=ptos
-Description=pi-top Desktop Splash
-ModuleName=script
-
-[script]
-ImageDir=/usr/share/plymouth/themes/ptos
-ScriptFile=/usr/share/plymouth/themes/ptos/ptos.script
