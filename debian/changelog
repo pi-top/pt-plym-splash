@@ -1,13 +1,7 @@
 pt-os-bootsplash (2.0.3) bullseye; urgency=medium
 
-  * Workflow: create draft release manually
-  * [pre-commit.ci] pre-commit autoupdate (#4)
-  * New workflows (#5)
-  * Update master workflow files
-  * Update master workflow files
   * Bullseye release: `pt-os-bootsplash` (#7)
-  * Updated master workflow files
-  * Updated master workflow files
+  * Update master workflow files
 
  -- pi-top <deb-maintainers@pi-top.com>  Wed, 01 Sep 2021 20:48:39 +0000
 
