@@ -1,3 +1,10 @@
+pt-os-bootsplash (2.0.3) bullseye; urgency=medium
+
+  * Bullseye release: `pt-os-bootsplash` (#7)
+  * Update master workflow files
+
+ -- pi-top <deb-maintainers@pi-top.com>  Wed, 01 Sep 2021 20:48:39 +0000
+
 pt-os-bootsplash (2.0.2) bullseye; urgency=medium
 
   * Rename package
