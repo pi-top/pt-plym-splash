@@ -1,3 +1,22 @@
+pt-os-bootsplash (2.0.3-3) bullseye; urgency=medium
+
+  * Updated master workflow files
+  * [pre-commit.ci] pre-commit autoupdate (#10)
+  * Add signing key and passphrase to deb_release workflow
+  * Add pull request template
+  * Update PR template to track Github issues
+  * [pre-commit.ci] pre-commit autoupdate (#11)
+  * Updated master workflow files
+  * Updated master workflow files
+  * [pre-commit.ci] pre-commit autoupdate (#12)
+  * [pre-commit.ci] pre-commit autoupdate (#13)
+  * Updated master workflow files
+  * Updated master workflow files
+  * Updated master workflow files
+  * Package for bookworm (#15)
+
+ -- pi-top <deb-maintainers@pi-top.com>  Fri, 12 Apr 2024 19:20:39 +0000
+
 pt-os-bootsplash (2.0.3-2) bullseye; urgency=medium
 
   * Updated master workflow files
